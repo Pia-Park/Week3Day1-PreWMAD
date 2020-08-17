@@ -157,12 +157,12 @@ paramFizzBuzz(20);
 // Function ten, Bonus: should have 1 parameter, meaning it will take 1 arguments. 
 // log to the console the reverse of the given string
 
-function reverseString(str) {
-  if (str === "")
-    return "";
-  else
-    return reverseString(str.substr(1)) + str.charAt(0);
+const reverseString = function (str){
+
+  console.log(str.split("").reverse().join(""));
+  
 }
+
 reverseString("hello");
 
 
